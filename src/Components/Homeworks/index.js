@@ -11,7 +11,7 @@ function Homeworks() {
       <Jumbotron fluid>
         <Container fluid>
           <h1 className="display-3">WELCOME TO BOOTCAMP - MAY 24 EDITION</h1>
-          <p className="lead">My Name is Sachin Rajgire and I am student here </p>
+          <p className="lead">My Name is Kevin Chawla and I am just a guide here </p>
           <NavBar />
 
           <Table dark>
