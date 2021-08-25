@@ -71,7 +71,7 @@ function Homeworks() {
     </div>
     <div>
     <input type="file" id="file" />
-    <button onClick={()=>{}handleClick()} > CLICK HERE </button>
+    <button onClick={()=>handleClick()} > CLICK HERE </button>
     </div>
     </div>
   );
