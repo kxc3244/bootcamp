@@ -19,7 +19,7 @@ function Homeworks() {
             headers: {
               'Content-Type': 'multipart/form-data',
               'accept': 'application/json',
-              'X-CSRFToken': '4uPDxzDmLSrqg6WJRT52MmMuvOK671LBI5uzuarMhnmm4W0G5ABIkJXcgQcLCzl0',
+              'X-CSRFToken': 'aYpJYWV97jHepv3nZJQD2iJZd6XPzgds6gpRl8O6yug0Gq22ZDXYtn2BNoRFiu8z',
               'Cookie': 'csrftoken=aYpJYWV97jHepv3nZJQD2iJZd6XPzgds6gpRl8O6yug0Gq22ZDXYtn2BNoRFiu8z; sessionid=zwqu5coo229e6lzk7tu4h7unwk22twvt'
               // 'Cookie': 'csrftoken=OxNW7yDFbVvD9p7r0lm6ibaZVHagVPPDmUsj6in7NOZTQCtiGcQMCah74dn5xjym; sessionid=qs0astvozfv91phu44dkeb0vyt5njqtv'
             }
