@@ -7,31 +7,6 @@ import axios from 'axios';
 
 function Homeworks() {
   
-  function handleClick(){
-  let formData = new FormData();
-      formData.append('file', document.getElementById("file").files[0]);
-      formData.append('document_type_id', "1")
-      // formData.append('csrfmiddlewaretoken', "VumpaIfxmKtNv77teTIOBoKZPRzhJlyZtR1M9sZZYDX3cktkUKcuVnR7YnM6lPhI")
-      console.log('>> formData >> ', formData);
- 
-      axios.post('https://edms.hidoefacilities.org/api/v4/documents/upload/?document_type_id=1&_token=71453535b111a909c6a8a183432f487bf2b9e55a',
-          formData, {
-            headers: {
-              'Content-Type': 'multipart/form-data',
-              'accept': 'application/json',
-              'X-CSRFToken': 'aYpJYWV97jHepv3nZJQD2iJZd6XPzgds6gpRl8O6yug0Gq22ZDXYtn2BNoRFiu8z',
-              'Cookie': 'csrftoken=aYpJYWV97jHepv3nZJQD2iJZd6XPzgds6gpRl8O6yug0Gq22ZDXYtn2BNoRFiu8z; sessionid=zwqu5coo229e6lzk7tu4h7unwk22twvt'
-              // 'Cookie': 'csrftoken=OxNW7yDFbVvD9p7r0lm6ibaZVHagVPPDmUsj6in7NOZTQCtiGcQMCah74dn5xjym; sessionid=qs0astvozfv91phu44dkeb0vyt5njqtv'
-            }
-          }
-        ).then(function () {
-          console.log('SUCCESS!!');
-        })
-        .catch(function () {
-          console.log('FAILURE!!');
-        });
-  
-  }
   return (
     <div className="App">
      <div>
@@ -72,8 +47,7 @@ function Homeworks() {
       </Jumbotron>
     </div>
     <div>
-    <input type="file" id="file" />
-    <button onClick={()=>handleClick()} > CLICK HERE </button>
+    <a href="http://localhost:8888/">CLICK HERE PLEASE</a>
     </div>
     </div>
   );
